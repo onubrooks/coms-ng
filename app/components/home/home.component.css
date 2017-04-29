@@ -1,0 +1,102 @@
+.details-grid {
+    background: url(../images/pic2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+.details-shade {
+    padding: 40px 0 0;
+    background: rgba(22, 21, 23, 0.35);
+}
+
+.details-shade,
+.details-grid {
+    min-height: 275px;
+}
+
+.details-right h3 {
+    color: #fff;
+    font-size: 22px;
+    margin: 12px 0 9px;
+}
+
+.profile-menu p {
+    font-size: 0.9em;
+    color: #72BAEC;
+}
+
+.details-right h4 {
+    color: #fcb314;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.banner-right ul.bann-btns {
+    padding: 0em;
+    list-style: none;
+    margin-top: 1em;
+}
+
+ul.bann-btns li a {
+    font-size: 1em;
+    color: #fff;
+    padding: 0.732em 0.7em;
+    background: #3995C3;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -o-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -ms-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+}
+
+ul.bann-btns li a:hover {
+    text-decoration: none;
+    background: #fcb314;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+ul.bann-btns {
+    padding-top: 13px;
+}
+
+ul.bann-btns li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    width: 46%;
+}
+
+select.bann-size {
+    background: url(../images/arrow.png)no-repeat 88% 50% #fcb314;
+    width: 100%;
+    padding: 0.5em 2.5em 0.4em 1em;
+    border: 2px solid #fcb314;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -o-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+    -ms-box-shadow: 0px 0px 1px 0px rgba(204, 204, 204, 0.85);
+}
+
+.item_add {
+    color: #fff;
+    border: none;
+}

@@ -1,0 +1,37 @@
+<!--component html goes here -->
+<stack-layout class="details-grid">
+    <StackLayout class="details-shade">
+        <StackLayout class="details-right">
+            <Label class="h3" text="New Collection" textWrap="true"></Label>
+            <Label class="h4" text="Sale 30% off all Items !" textWrap="true"></Label>
+            <Label class="h6" text="Different Products :" textWrap="true"></Label>
+            <GridLayout rows="*" columns="*, *">
+                <ListPicker class="bann-btns" row="0" col="1" [items]="['Shirts','Shoes','Tops','Jeans']" [(ngModel)]=""></ListPicker>
+                <Button class="item_add" row="0" col="1" text="Shop Now" (tap)=""></Button>
+            </GridLayout>
+
+        </StackLayout>
+
+    </StackLayout>
+</stack-layout>
+
+
+<!--<div class="details-grid">
+    <div class="details-shade">
+        <div class="details-right">
+            <h3>New Collection</h3>
+            <h4>Sale 30% off all Items !</h4>
+            <h6>Different Products :</h6>
+            <ul class="bann-btns">
+                <li><select class="bann-size">
+									<option value="select your location">Shirts</option>
+									<option value="saab">Shoes</option>
+									<option value="fiat">Tops</option>
+									<option value="audi">Jeans</option>
+									</select>
+                </li>
+                <li><a href="#" class="item_add">Shop Now</a></li>
+            </ul>
+        </div>
+    </div>
+</div> -->

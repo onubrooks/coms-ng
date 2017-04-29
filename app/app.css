@@ -1,0 +1,84 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+
+@import 'nativescript-theme-core/css/core.light.css';
+
+/* app header*/
+
+.menu-notify {
+    padding: 6px 0;
+    background: #067ab4!important;
+}
+
+.menu-notify {
+    padding: 17px 0 39px 0;
+}
+
+.profile-left {
+    float: left;
+    width: 27.3333%;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.profile-left i {
+    font-size: 20px;
+    color: #fff;
+}
+
+i.fa.fa-shopping-cart {
+    font-size: 16px;
+}
+
+.Profile-right {
+    float: left;
+    text-align: center;
+}
+
+.Profile-right.two {
+    float: right;
+    margin-right: 2em;
+}
+
+.Profile-right i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile-left i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.Profile-right span {
+    color: #fff;
+    font-size: 11px;
+    right: 0;
+}
+
+.Profile-right i {
+    font-size: 21px;
+    color: #fff;
+}
+
+.Profile-mid {
+    float: left;
+    width: 42.333%;
+    text-align: left;
+    margin-top: 3px;
+}
+
+h5.pro-link {
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
