@@ -13,13 +13,16 @@ import { ShopComponent } from "./components/shop/shop.component";
 import { SignupComponent } from "./components/user/signup/signup.component";
 import { LoginComponent } from "./components/user/login/login.component";
 
+import { AccordionModule } from "nativescript-accordion/angular";
+
 @NgModule({
     bootstrap: [
         AppComponent
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        AccordionModule
     ],
     declarations: [
         AppComponent,

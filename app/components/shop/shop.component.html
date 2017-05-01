@@ -1,8 +1,54 @@
-<!--component html goes here -->
+<StackLayout class="cont span_2_of_3 inner">
+    <Label text="Get Shop" class="title two h3" textWrap="true"></Label>
+    <StackLayout class="labout span1_of_a1">
+        <GridLayout class="flexslider slides" rows="auto,*" columns="*">
+            <Image row="0" src="images/s11.jpg"></Image>
+            <StackLayout orientation="horizontal" row="1">
+                <Image class="thumb-image img-responsive" src="images/s11.jpg"></Image>
+                <Image class="thumb-image img-responsive" src="images/s12.jpg"></Image>
+                <Image class="thumb-image img-responsive" src="images/s13.jpg"></Image>
+                <Image class="thumb-image img-responsive" src="images/s11.jpg"></Image>
+
+            </StackLayout>
+        </GridLayout>
+    </StackLayout>
+    <StackLayout class="cont1 span_2_of_a1 pull-right">
+        <StackLayout>
+            <Label class="h3 m_3" text="Lorem ipsum dolor sit amet" textWrap="true"></Label>
+        </StackLayout>
+        <StackLayout class="price_single">
+            <Label class="reducedfrom" text="$66.00" textWrap="true"></Label>
+            <Label class="actual" text="$66.00" textWrap="true"></Label>
+        </StackLayout>
+        <StackLayout class="m_9">
+            <Label class="h4" text="Select a Size" textWrap="true"></Label>
+        </StackLayout>
+        <StackLayout>
+            <StackLayout class="options list-unstyled" orientation="horizontal">
+                <Label text="6" textWrap="true"></Label>
+                <Label text="7" textWrap="true"></Label>
+                <Label text="8" textWrap="true"></Label>
+                <Label text="9" textWrap="true"></Label>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout>
+            <Button class="btn_form" text="Buy Now" (tap)=""></Button>
+        </StackLayout>
+        <StackLayout class="add-to-links list-unstyled">
+            <Label text="Add to Wish list" textWrap="true"></Label>
+        </StackLayout>
+        <StackLayout>
+            <Label class="m_desc" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." textWrap="true"></Label>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>
+
+<!--component html goes here
 <div class="cont span_2_of_3 inner">
     <h3 class="tittle two">Get Shop</h3>
     <div class="labout span_1_of_a1">
-        <!-- start product_slider -->
+        <!-- start product_slider 
         <div class="flexslider">
             <ul class="slides">
                 <li data-thumb="images/s11.jpg">
@@ -21,7 +67,7 @@
             <div class="clearfix"></div>
         </div>
 
-        <!-- end product_slider -->
+        <!-- end product_slider 
     </div>
     <div class="cont1 span_2_of_a1 pull-right">
         <h3 class="m_3">Lorem ipsum dolor sit amet</h3>
@@ -60,4 +106,4 @@
     </div>
 
     <div class="clearfix"></div>
-</div>
+</div>  -->

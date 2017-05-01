@@ -1,4 +1,40 @@
 <!--component html goes here -->
+
+
+<StackLayout class="categories-section main-grid-border" id="latest">
+    <StackLayout class="inner-products">
+        <Label class="h3 tittle two" text="Latest Products" textWrap="true"></Label>
+        <StackLayout class="category-list">
+            <StackLayout class="resp-tabs-list hor_1">
+                <Accordion [items]="items" itemTapped="tapped" headerTextBold="true" headerTextColor="white" headerColor="pink" headerTextColor="blue" allowMultiple="true" selectedIndex="2">
+                    <template accordionHeaderTemplate let-item="item" let-i="index">
+                    <GridLayout backgroundColor="blue" columns="auto,*">
+                        <Label [text]="item.title"></Label>
+                    </GridLayout>
+                    </template>
+
+                    <template accordionItemTemplate let-item="item" let-parent="parentIndex" let-even="even" let-child="childIndex">
+                    <StackLayout>
+                        <Image [src]="item.image"></Image>
+                        <Label [text]="item.text"></Label>
+                    </StackLayout>
+                    </template>
+
+                    <!-- IOS Only -->
+                    <template accordionFooterTemplate let-item="item" let-i="index">
+                    <GridLayout backgroundColor="yellow" columns="auto,*">
+                        <Label [text]="item.footer"></Label>
+                        <Label col="1" text="-"></Label>
+                        </GridLayout>
+                    </template>
+                    <!-- IOS Only -->
+                </Accordion>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>
+
+<!--
 <div class="categories-section main-grid-border" id="latest">
     <div class="inner-products">
         <h3 class="tittle two">Latest Products</h3>
@@ -310,3 +346,5 @@
         </div>
     </div>
 </div>
+
+    -->
